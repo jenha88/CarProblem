@@ -31,16 +31,23 @@ namespace ReadingFiles
             {
                 C.Add(new Car(item));
             }
+           
+
             PopulateListBox(C);
             PopulateManufacturer();
             PopulateColor();
             PopulateYear();
+
+            cbManu.SelectedIndex = 0;
+            cbColor.SelectedIndex = 0;
+            cbYear.SelectedIndex = 0;
        
             
         }
      
         private  void PopulateListBox(List<Car> c)
         {
+            lstBox.Items.Clear();
             foreach (var cc in c)
             {
                 lstBox.Items.Add(cc);
@@ -80,7 +87,7 @@ namespace ReadingFiles
                 if (!cbYear.Items.Contains(item.Year))
                 {
                     cbYear.Items.Add(item.Year);
-                }
+                }                
             }
         }
 
@@ -183,6 +190,6 @@ namespace ReadingFiles
 
         }
 
-    
+       
     }
 }

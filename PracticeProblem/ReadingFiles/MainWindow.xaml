@@ -11,7 +11,7 @@
         <ComboBox x:Name="cbManu" HorizontalAlignment="Left" Margin="49,118,0,0" VerticalAlignment="Top" Width="162" Height="26" SelectionChanged="cbManu_SelectionChanged"/>
         <ComboBox x:Name="cbColor" HorizontalAlignment="Left" Margin="307,122,0,0" VerticalAlignment="Top" Width="162" Height="26" SelectionChanged="cbColor_SelectionChanged"/>
         <ListBox x:Name="lstBox" HorizontalAlignment="Left" Height="173" Margin="0,247,-0.4,0" VerticalAlignment="Top" Width="794" />
-        <ComboBox x:Name="cbYear" HorizontalAlignment="Left" Margin="552,118,0,0" VerticalAlignment="Top" Width="162" Height="26" />
+        <ComboBox x:Name="cbYear" HorizontalAlignment="Left" Margin="552,118,0,0" VerticalAlignment="Top" Width="162" Height="26" SelectionChanged="cbYear_SelectionChanged" />
         <Button x:Name="btb" Content="Push" HorizontalAlignment="Left" Margin="333,184,0,0" VerticalAlignment="Top" Width="102" FontSize="20" Height="36" Click="btb_Click"/>
         <Label Content="Manufacturer" HorizontalAlignment="Left" Margin="73,87,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15"/>
         <Label Content="Color" HorizontalAlignment="Left" Margin="361,91,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15"/>
