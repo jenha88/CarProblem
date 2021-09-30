@@ -109,7 +109,7 @@ namespace ReadingFiles
             List<Car> filteredCar;
             filteredCar = FilteredManu(C);
             filteredCar = FilteredColor(filteredCar);
-           filteredCar = FilteredYear(filteredCar);
+            filteredCar = FilteredYear(filteredCar);
             PopulateListBox(filteredCar);
           
 
